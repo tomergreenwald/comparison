@@ -1,5 +1,5 @@
 cc_binary(
-    name = "main",
+    name = "c",
     srcs = ["main.c"],
     deps = [
         "//a",

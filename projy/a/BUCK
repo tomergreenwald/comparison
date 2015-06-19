@@ -1,0 +1,20 @@
+# A rule that includes a single .cpp file and its corresponding header and
+# also supplies an additional flag for compilation.
+cxx_library(
+  name = 'a',
+  srcs = [
+    'a.c',
+  ],
+  headers = [
+    'a.h',
+  ],
+  exported_headers = [
+    'a_struct.h',
+  ],
+  compiler_flags = [
+    '-fno-omit-frame-pointer',
+  ],
+visibility = [
+    'PUBLIC',
+  ],
+)

@@ -1,0 +1,7 @@
+prebuilt_native_library(
+    name = "libby",
+    native_libs = "libby.so",
+visibility = [
+    'PUBLIC',
+  ],
+)

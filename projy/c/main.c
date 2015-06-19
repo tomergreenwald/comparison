@@ -5,6 +5,6 @@ a_func();
 b_func();
 s.member = 7;
 b_calls_a_func(s);
-exported_func();
+//exported_func();
 return 0;
 }
